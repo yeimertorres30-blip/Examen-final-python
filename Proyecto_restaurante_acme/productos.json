@@ -1,0 +1,20 @@
+[
+    {
+        "codigo": 150,
+        "Nombre": "Coca cola",
+        "Valor Unitario": 3500,
+        "Iva": 1000
+    },
+    {
+        "codigo": 151,
+        "Nombre": "Chocorramo",
+        "Valor Unitario": 3500,
+        "Iva": 500
+    },
+    {
+        "codigo": 152,
+        "Nombre": "Galleta oreo",
+        "Valor Unitario": 2000,
+        "Iva": 200
+    }
+]

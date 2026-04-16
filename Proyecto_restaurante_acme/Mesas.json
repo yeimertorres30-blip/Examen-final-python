@@ -1,0 +1,17 @@
+[
+    {
+        "Codigo": 1,
+        "Nombre": "mesa uno",
+        "Puestos": 4
+    },
+    {
+        "Codigo": 2,
+        "Nombre": "mesa dos",
+        "Puestos": 6
+    },
+    {
+        "Codigo": 3,
+        "Nombre": "mesa tres",
+        "Puestos": 10
+    }
+]

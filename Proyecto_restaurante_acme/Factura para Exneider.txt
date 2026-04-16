@@ -1,0 +1,24 @@
+==================================================
+FACTURA DE VENTA 
+==================================================
+Fecha : 09/04/26
+Cliente : Exneider Nº 1090527809
+Numero de contacto : 3167221636
+Email : exneidernava9@gmail.com
+Mesa : mesa tres Nº 3
+==================================================
+PRODUCTOS
+Chocorramo : 1 unidades 
+ valor unitario : 3500
+ Iva : 500 
+ Total = 4000
+Coca cola : 1 unidades 
+ valor unitario : 3500
+ Iva : 1000 
+ Total = 4500
+Galleta oreo : 6 unidades 
+ valor unitario : 2000
+ Iva : 200 
+ Total = 13200
+Total a pagar = 21700
+==================================================

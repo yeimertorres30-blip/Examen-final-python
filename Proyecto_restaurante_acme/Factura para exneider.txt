@@ -1,0 +1,20 @@
+==================================================
+FACTURA DE VENTA 
+==================================================
+Fecha : 08/04/26
+Cliente : exneider Nº 1090527809
+Numero de contacto : 3167221636
+Email : exneidernava9@gmail.com
+Mesa : mesa regular Nº 1
+==================================================
+PRODUCTOS
+yeimer care verga : 50 unidades 
+ valor unitario : 25000
+ Iva : 800 
+ Total = 1290000
+4549875 : 10 unidades 
+ valor unitario : 5000
+ Iva : 600 
+ Total = 56000
+Total a pagar = 1346000
+==================================================
