@@ -1,5 +1,5 @@
 import json
-
+ruta = ""
 
 def crearMesas():
     decoracion = "=" * 50
@@ -7,7 +7,7 @@ def crearMesas():
     print("Modulo de crear mesas")
     
     try: 
-        with open("Mesas.json", "r") as archivo:
+        with open(ruta + "Mesas.json", "r") as archivo:
             lista_mesas = json.load(archivo)
     except (FileNotFoundError, json.JSONDecodeError):
             lista_mesas = []
@@ -55,7 +55,7 @@ def crearMesas():
             
         lista_mesas.append(datos_mesas)
         
-        with open("Mesas.json", "w") as archivo:
+        with open(ruta + "Mesas.json", "w") as archivo:
                 json.dump(lista_mesas, archivo, indent=4)
                 
         print("Mesa guardada")
