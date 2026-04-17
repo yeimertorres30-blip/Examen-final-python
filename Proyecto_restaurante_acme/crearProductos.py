@@ -1,7 +1,7 @@
 
 import json
 
-
+ruta = ""
 
 def crearProductos():
    
@@ -11,7 +11,7 @@ def crearProductos():
     print("Modulo de ingresar producto")
     
     try:
-        with open("productos.json", "r") as productos:
+        with open(ruta + "productos.json", "r") as productos:
                 
             lista_productos = json.load(productos)
                 
@@ -75,7 +75,7 @@ def crearProductos():
         lista_productos.append(datos_producto)
             
         
-        with open("productos.json", "w") as archivo:
+        with open(ruta + "productos.json", "w") as archivo:
             json.dump(lista_productos, archivo, indent=4)
         
         print("Producto guardado exitosamente")
