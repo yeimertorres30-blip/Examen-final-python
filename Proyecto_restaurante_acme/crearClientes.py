@@ -1,5 +1,6 @@
 import json
 
+ruta = ""
 
 def crearClientes():
     decoracion = "=" * 50
@@ -7,7 +8,7 @@ def crearClientes():
     print("Modulo de Crear Clientes")
     
     try:
-        with open("Clientes.json", "r") as clientes:
+        with open(ruta + "Clientes.json", "r") as clientes:
             lista_clientes = json.load(clientes)
     except (FileNotFoundError, json.JSONDecodeError):
             lista_clientes = []
@@ -63,7 +64,7 @@ def crearClientes():
             
         lista_clientes.append(datos_cliente)
         
-        with open("Clientes.json", "w") as archivo:
+        with open(ruta + "Clientes.json", "w") as archivo:
             json.dump(lista_clientes, archivo, indent=4)
             
         print("Cliente guardado exitosamente")
