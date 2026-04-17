@@ -3,6 +3,8 @@ import csv
 
 
 def generarReporte():
+    
+    ruta = ""
     decoracion = "=" * 60
     
     encabezado = ["Mesa", "Total productos", "Subtotal bruto", "Subtotal Iva" , "Total General"]
@@ -17,7 +19,7 @@ def generarReporte():
     fecha_reporte = input("Ingrese la fecha del reporte en dd/mm/aa : ")
     
     try:
-        with open("respaldo_reporte.json", "r") as reporte:
+        with open(ruta + "respaldo_reporte.json", "r") as reporte:
             datos_reporte = json.load(reporte)
             
             
@@ -58,10 +60,9 @@ def generarReporte():
             
             if opcion == 1:
                 nombre_csv = f"Reporte_ventas_{fecha_reporte.replace('/', '-')}.csv"
-                with open(nombre_csv, "w", newline="") as archivo_csv:
+                with open(ruta + nombre_csv, "w", newline="") as archivo_csv:
                     escribir = csv.writer(archivo_csv)
                     
-                    #revizar mañana
                     escribir.writerow(encabezado)
                     escribir.writerows(lista_ventas)
                     escribir.writerow([])
